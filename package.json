@@ -1,5 +1,5 @@
 {
-  "name": "com..",
+  "name": "com.tgl.zenjectextensions",
   "version": "1.0.0",
   "displayName": "",
   "description": "",
@@ -11,18 +11,10 @@
   "keywords": [
   ],
   "author": {
-    "name": "",
+    "name": "TGL",
     "email": "",
     "url": ""
   },
   "type": "tool",
-  "hideInEditor": false,
-  "samples": 
-[
-	{
-		"displayName": "Samples",
-		"description": "",
-		"path": "Samples~/"
-	}
-]
+  "hideInEditor": false
 }
