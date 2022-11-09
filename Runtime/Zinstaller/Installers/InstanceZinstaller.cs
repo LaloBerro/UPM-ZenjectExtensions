@@ -1,3 +1,5 @@
+using System;
+
 namespace ZenjectExtensions.Zinstallers
 {
     public abstract class InstanceZinstaller<TypeToInstall> : Zinstaller
@@ -12,5 +14,11 @@ namespace ZenjectExtensions.Zinstallers
         }
 
         protected abstract TypeToInstall GetInitializedClass();
+
+        private void OnDestroy()
+        {
+            if (_typeToInstall is IDisposable)
+                (_typeToInstall as IDisposable).Dispose();
+        }
     }
 }
