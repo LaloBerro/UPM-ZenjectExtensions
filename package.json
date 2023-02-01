@@ -1,7 +1,7 @@
 {
   "name": "com.tgl.zenjectextensions",
   "version": "1.2.1",
-  "displayName": "TGL - ZenjectExtensions",
+  "displayName": "ZenjectExtensions",
   "unity": "2020.3",
   "unityRelease": "0b5",
   "documentationUrl": "",
@@ -9,7 +9,7 @@
   "licensesUrl": "",
   "keywords": [],
   "author": {
-    "name": "TGL",
+    "name": "Lalo",
     "email": "",
     "url": ""
   },
