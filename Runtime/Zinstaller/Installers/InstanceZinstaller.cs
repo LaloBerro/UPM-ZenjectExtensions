@@ -15,10 +15,10 @@ namespace ZenjectExtensions.Zinstallers
 
         protected abstract TypeToInstall GetInitializedClass();
 
-        private void OnDestroy()
+        protected virtual void OnDestroy()
         {
-            if (_typeToInstall is IDisposable)
-                (_typeToInstall as IDisposable).Dispose();
+            if (_typeToInstall is IDisposable disposable)
+                disposable.Dispose();
         }
     }
 }
